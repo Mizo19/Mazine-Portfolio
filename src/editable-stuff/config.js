@@ -41,7 +41,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/PicProject.png"),
+  imageLink: require("../editable-stuff/PicProject.jpeg"),
   imageSize: 350,
   message:
     "My name is SABRI Mazine. I’m a graduate of 2020 from National School of Applied Sciences at Khouribga with a degree in Embedded Systems & Electrical  Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
@@ -80,7 +80,7 @@ const leadership = {
   ),
   images: [
     { 
-      img: require("../editable-stuff/project.jpeg"), 
+      img: require("../editable-stuff/project.jpg"), 
     },
   ],
   imageSize: {
