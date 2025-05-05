@@ -70,7 +70,7 @@ const repos = {
 // Leadership SECTION
 const leadership = {
   show: true,
-  heading: "Projects",
+  heading: "Recent Projects",
   message: (
     <span>
       Pharmacy Management System | Developed a comprehensive Pharmacy Management System designed to streamline pharmacy operations and improve efficiency.
