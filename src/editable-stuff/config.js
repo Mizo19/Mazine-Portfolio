@@ -41,10 +41,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/unnamed.jpg"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/PicProject.png"),
+  imageSize: 350,
   message:
-    "My name is SABRI Mazine. I’m a graduate of 2020 from National School of Applied Sciences at Khouribga with a degree in Embeddded & Electrical  Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is SABRI Mazine. I’m a graduate of 2020 from National School of Applied Sciences at Khouribga with a degree in Embedded Systems & Electrical  Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
   resume: "https://drive.google.com/open?id=10n5BBNydyH4KeCofPZ13zTJqu2lK2QiR&authuser=0",
 };
 
@@ -54,36 +54,45 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
-  gitHubUsername: "Mizo19", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "Mizo19",
+  reposLength: 0,
+  specificRepos: [
+    {
+      name: "my-cool-project",
+      image: "/images/project1.png",
+      description: "This is a project I built using React and Node.js."
+    }
+  ],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  show: true,
+  heading: "Projects",
+  message: (
+    <span>
+      Pharmacy Management System | Developed a comprehensive Pharmacy Management System designed to streamline pharmacy operations and improve efficiency.
+      The system includes essential features for managing inventory, processing sales, handling customer and vendor data, and automating key functions.
+      <strong>Technologies:NET, C#, SQL Server, Docker, Python (Web Scraping & Data Analysis)</strong>
+    </span>
+  ),
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/project.jpeg"), 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "550",
+    height: "400",
+  },
+  imageStyle: {
+    border: "5px solid #000", // Add a black border to the image
+    borderRadius: "10px", // Optional: Adds rounded corners to the image
   }
 };
+
 
 // SKILLS SECTION
 const skills = {
