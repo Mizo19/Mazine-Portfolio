@@ -5,10 +5,10 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4484ce,rgb(26, 92, 215),rgb(112, 255, 17),rgb(95, 89, 182),rgb(127, 240, 255), #ecf0f1",
   firstName: "Mazine",
   middleName: "",
-  lastName: "SABRI",
+  lastName: "SABRI Full Stack .NET Engineer",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
@@ -41,11 +41,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/PicProject.jpeg"),
+  imageLink: require("../editable-stuff/mazine.jpeg"),
   imageSize: 350,
   message:
-    "My name is SABRI Mazine. I’m a graduate of 2020 from National School of Applied Sciences at Khouribga with a degree in Embedded Systems & Electrical  Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://drive.google.com/open?id=10n5BBNydyH4KeCofPZ13zTJqu2lK2QiR&authuser=0",
+    "My name is SABRI Mazine. I’m a graduate of 2021 from National School of Applied Sciences at Khouribga with a degree in Embedded Systems   Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+  resume: "https://drive.google.com/open?id=1keUW-x_rEoqou_FJ7kRmJBJT2cnNXvyj&authuser=0",
 };
 
 // PROJECTS SECTION
@@ -73,14 +73,29 @@ const leadership = {
   heading: "Recent Projects",
   message: (
     <span>
-      Pharmacy Management System | Developed a comprehensive Pharmacy Management System designed to streamline pharmacy operations and improve efficiency.
-      The system includes essential features for managing inventory, processing sales, handling customer and vendor data, and automating key functions.
-      <strong>Technologies:NET, C#, SQL Server, Docker, Python (Web Scraping & Data Analysis)</strong>
+      <div style={{ marginBottom: "20px" }}>
+        <strong>Pharmacy Management System</strong> | Developed a comprehensive Pharmacy Management System designed to streamline pharmacy operations and improve efficiency.  
+        The system includes essential features for managing inventory, processing sales, handling customer and vendor data, and automating key functions.  
+        <strong>Technologies: .NET, C#, SQL Server, Docker, Python (Web Scraping & Data Analysis)</strong>
+      </div>
+
+      <div>
+        <strong>Hardware Assignmeent Platforme</strong> |Built a web-based tracking tool using ASP.NET Razor Pages to manage and monitor hardware assets used during automotive testing.
+The application enables each test team member to view their assigned hardware (e.g., serial numbers), while team leads can assign ownership, add new devices, or remove outdated equipment.
+This solution improved transparency, streamlined hardware allocation, and supported more efficient coordination across HIL and integration test phases.
+<strong>Technologies: ASP.NET Core Razor Pages, C#, SQL Server, Entity Framework</strong>
+      </div>
     </span>
   ),
   images: [
-    { 
-      img: require("../editable-stuff/project.jpg"), 
+    {
+      img: require("../editable-stuff/Hardware.png"),
+    },
+    {
+      img: require("../editable-stuff/pic.png"), // Add your second project's image here
+    },
+    {
+      img: require("../editable-stuff/project.jpg"), // Add your second project's image here
     },
   ],
   imageSize: {
@@ -88,22 +103,21 @@ const leadership = {
     height: "400",
   },
   imageStyle: {
-    border: "5px solid #000", // Add a black border to the image
-    borderRadius: "10px", // Optional: Adds rounded corners to the image
+    border: "5px solid #000",
+    borderRadius: "10px",
   }
 };
-
 
 // SKILLS SECTION
 const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 80 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "C/C++", value: 60},
+    { name: "JavaScript", value: 75 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
@@ -125,8 +139,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "mazinesabri@gmail.com",
+   "I'm currently looking for full-time Software Engineering opportunities in C#/.NET If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email:"mazinesabri@gmail.com",
 };
 
 const experiences = {
