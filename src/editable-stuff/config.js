@@ -8,7 +8,7 @@ const mainBody = {
   gradientColors: "#4484ce,rgb(26, 92, 215),rgb(112, 255, 17),rgb(95, 89, 182),rgb(127, 240, 255), #ecf0f1",
   firstName: "Mazine",
   middleName: "",
-  lastName: "SABRI Full Stack .NET Engineer",
+  lastName: "SABRI Full Stack .NET/React Engineer",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
@@ -85,17 +85,27 @@ The application enables each test team member to view their assigned hardware (e
 This solution improved transparency, streamlined hardware allocation, and supported more efficient coordination across HIL and integration test phases.
 <strong>Technologies: ASP.NET Core Razor Pages, C#, SQL Server, Entity Framework</strong>
       </div>
+
+
+        <div>
+        <strong>ParaPharma WebPage</strong> A React web page for listing and selling paramedical products, with search, cart, and checkout features. Clean, responsive, and user-friendly.
+        <strong>Technologies: React, JavaScript, HTML/CSS</strong>
+      </div>
+      
     </span>
   ),
   images: [
     {
-      img: require("../editable-stuff/Hardware.png"),
+      img: require("../editable-stuff/webtitle.png"),
     },
     {
       img: require("../editable-stuff/pic.png"), // Add your second project's image here
     },
     {
       img: require("../editable-stuff/project.jpg"), // Add your second project's image here
+    },
+    {
+      img: require("../editable-stuff/parapharam.png"), // Add your second project's image here
     },
   ],
   imageSize: {
